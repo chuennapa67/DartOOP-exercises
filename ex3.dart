@@ -49,6 +49,7 @@ class CoinSlotProcessor implements PaymentProcessor {
   
   // TODO 2: เขียนเมธอด getReceipt() ตามที่ interface บังคับไว้
   // - คืนค่าสตริง เช่น "ใบเสร็จ: ชำระเงินผ่านช่องหยอดเหรียญ"
+  @override
   String getReceipt(){
     return "ใบเสร็จ: ชำระเงินผ่านช่องหยอดเหรียญ";
   }
