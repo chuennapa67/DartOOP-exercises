@@ -25,9 +25,7 @@ class UserProfile {
 
   // TODO 1: สร้าง Getter สำหรับ age
   // คำใบ้: ต้องคืนค่าเป็น int และใช้คีย์เวิร์ด 'get'
-  int get age {
-    return _age;
-  }
+  int get age => _age;
 
   // TODO 2: สร้าง Setter สำหรับ age
   // - ถ้าอายุน้อยกว่า 13 ให้ print "❌ ข้อผิดพลาด: ต้องอายุ 13 ปีขึ้นไปจึงจะใช้งานแอปได้"
